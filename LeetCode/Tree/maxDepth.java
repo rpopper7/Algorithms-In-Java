@@ -41,5 +41,6 @@ public class Solution
  * -------------------------------------------------------------
  * Recursively search for which tree has the higher max depth,
  * if the root is null, then that is the base case and return 0.
+ * Add 1 each time the recursion hits a new level of the tree.
  * -------------------------------------------------------------
  */
