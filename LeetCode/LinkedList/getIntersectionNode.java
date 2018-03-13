@@ -47,6 +47,21 @@ public class Solution
 
 		return currentA;
 	}
+
+	public ListNode getIntersectionNodeV2(ListNode headA, ListNode headb)
+	{
+		int lengthA = length(headA), lengthB = length(headB);
+	}
+	private int length(ListNode node)
+	{
+		int length = 0; 
+		while (node != null)
+		{
+			node = node.next;
+			length++;
+		}
+		return length;
+	}
 }
 
 // A B C 
